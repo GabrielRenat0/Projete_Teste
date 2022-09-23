@@ -13,13 +13,13 @@ body * {
 .main-login{
     width: 100vw;
     height: 100vh;
-    background: #201b2c;
+    background: #9acc77;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .left-login{
-    width: 50vw;
+    width: 60vw;
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -28,10 +28,10 @@ body * {
 }
 .left-login > h1 {
     font-size: 3vw;
-    color: #58926a;
+    color: #000000be;
 }
 .left-imagem{
-    width: 35vw;
+    width: 30vw;
 }
 
 .right-login{
@@ -49,12 +49,12 @@ body * {
     align-items: center;
     flex-direction: column;
     padding: 30px 35px;
-    background: #2f2841;
+    background: #45936c;
     border-radius: 20px;
-    box-shadow: 0px 10px 40px #00000056;
+    box-shadow: 0px 10px 40px #9acc77;
 }
 .card-login > h1 {
-    color: #447a55;
+    color: #ffffff;
     font-weight: 800;
     margin: 0 ;
 }
@@ -71,9 +71,9 @@ body * {
     border: none;
     border-radius: 10px;
     padding: 15px;
-    background: #514869;
+    background: #334f53;
     font-size: 12pt;
-    box-shadow: 0px 10px 40px #00000056;
+    box-shadow: 0px 10px 40px #45936c;
     outline: none;
     box-sizing: border-box;
 }
@@ -82,7 +82,7 @@ body * {
     margin-bottom: 10px;
 }
 .textfield > input::placeholder{
-    color: #f0ffff94;
+    color: #ffffff;
 }
 .btn-login{
     width: 100%;
@@ -95,10 +95,10 @@ body * {
     text-align: center; 
     font-weight: 800;
     letter-spacing: 3px;
-    color: #2b134b;
-    background:#58926a;
+    color: #000000;
+    background:#e5ead4;
     cursor: pointer;
-    box-shadow: 0px 10px 40px -12px #00ff8052;
+    box-shadow: 0px 10px 40px -12px #494949;
 }
 
 @media only screen and (max-winth: 950px){
